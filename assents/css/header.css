@@ -1,0 +1,23 @@
+
+.menu {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    width: 100%;
+}
+
+.menu-left {
+    height: 146px;
+    width: 24px;
+}
+
+.menu-right {
+    height: 34px;
+    width: 130px;
+}
+
+#icon {
+    height: 24px;
+    width: auto;
+}
