@@ -21,18 +21,25 @@
     height: 42px;
 }
 
+.channel-info h3 p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 14px;
+    margin: auto;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
     width: auto;
     height: 24px;
+    gap: 5px;
+    margin: auto;
 }
 
 .content-icons button {
     display: flex;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
     background: red;
     width: 159px;
     height: 40px;
@@ -40,6 +47,7 @@
     border-radius: 2px;
     color: white;
     font-size: 14px;
+    text-transform: uppercase;
 }
 .content-icons button:hover {
     background: darkred;
@@ -48,6 +56,16 @@
 
 .video-comments {
     background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    color: rgba(81, 81, 81, 1);
+    font-size: 14px;
+}
+
+.video-comments #text-dados {
+    color: black;
+    font-weight: bold;
 }
 
 .video-player iframe{
@@ -58,3 +76,5 @@
 .video-details {
     background: yellow;
 }
+
+
