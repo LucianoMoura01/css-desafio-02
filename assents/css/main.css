@@ -6,10 +6,31 @@
     gap: 15px;
 }
 
+.video-stats button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background: red;
+    width: 159px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+}
+
 .video-comments {
     background: lightgreen;
 }
 
 .video-player {
     background: lightblue;
+}
+
+.video-details {
+    background: yellow;
+
+
+
 }
