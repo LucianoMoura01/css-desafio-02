@@ -1,7 +1,6 @@
 .sidebar {
     background: burlywood;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     width: 160px;
     height: 938px;
@@ -9,7 +8,6 @@
 
 .video{
     display: flex;
-    flex-direction: column;
     width: 246px;
     height: 138px;
     margin: 10px;
@@ -22,7 +20,6 @@
 }
 .video-info{
     display: flex;
-    flex-direction: column;
     width: 196px;
     height: 89px;
 }
