@@ -21,26 +21,49 @@
     height: 42px;
 }
 
-.channel-info h3 p {
+.channel-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.channel-text {
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: 14px;
-    margin: auto;
+    gap: 2px;
+}
+
+.channel-text h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.channel-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
 }
 
 .icons {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: auto;
     height: 24px;
     gap: 5px;
     margin: auto;
+    font-weight: bolder;
 }
 
 .content-icons button {
     display: flex;
-    background: red;
+    align-items: center;
+    justify-content: center;
+    background: rgba(204, 0, 0, 1);
     width: 159px;
     height: 40px;
     border: none;

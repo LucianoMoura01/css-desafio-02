@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     width: 160px;
-    height: 938px;
+    height: 100%;
 }
 
 .video{
