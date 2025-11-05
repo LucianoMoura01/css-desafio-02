@@ -1,3 +1,6 @@
+.main{
+    background: rgba(249, 249, 249, 1);
+}
 .content {
     display: flex;
     flex-direction: row;
@@ -13,12 +16,11 @@
 }
 
 .content-icons {
-    background: orange;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 902px;
+    width: 862px;
     height: 42px;
 }
 
@@ -79,7 +81,6 @@
 }
 
 .video-comments {
-    background: lightgreen;
     display: flex;
     flex-direction: column;
     width: 510px;
@@ -94,11 +95,8 @@
 
 .video-player iframe{
     width: 100%;
-    height: 100%;
+    height: 537px;
 }
 
-.video-details {
-    background: yellow;
-}
 
 
