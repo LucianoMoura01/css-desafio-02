@@ -1,84 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>YouTube Clone - DIO Challenge</title>
     <link rel="stylesheet" href="../assents/css/styles.css">
 </head>
+
 <body>
     <header>
         <div class="menu">
             <div class="menu-left">
-                <img id="icon icon-01" src="../assents/image/menu.png" alt="Menu Icon">
-                <img id="icon icon-02" src="../assents/image/youtube 1.png" alt="YouTube Logo">
+                <img class="icon" src="../assents/image/menu.png" alt="Menu">
+                <img class="icon" src="../assents/image/youtube 1.png" alt="YouTube Logo">
             </div>
+
             <div class="menu-center">
-                <input id="search" type="text" placeholder="Search">
-                <button id="button-search">
-                    <img id="icon icon-03" src="../assents/image/search.png" alt="Search Icon">
+                <input id="search" type="text" placeholder="Pesquisar">
+                <button id="button-search" aria-label="Pesquisar">
+                    <img class="icon" src="../assents/image/search.png" alt="Buscar">
                 </button>
             </div>
+
             <div class="menu-right">
-                <img id="icon icon-04" src="../assents/image/video.png" alt="Video Icon">
-                <img id="icon icon-05" src="../assents/image/bell.png" alt="Notification Bell">
-                <img id="icon icon-06" src="../assents/image/avatar.png" alt="Profile Icon">
+                <img class="icon" src="../assents/image/video.png" alt="Criar vídeo">
+                <img class="icon" src="../assents/image/bell.png" alt="Notificações">
+                <img class="icon" src="../assents/image/avatar.png" alt="Perfil">
             </div>
         </div>
     </header>
+
     <main>
         <div class="content">
             <div class="preview">
                 <div class="video-player">
-                    <div class="tenor-gif-embed" data-postid="25800724" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/never-gonna-give-you-up-gif-25800724">Never Gonna Give You Up Meme</a>from <a href="https://tenor.com/search/never+gonna+give+you+up-memes">Never Gonna Give You Up Memes</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                    <div class="tenor-gif-embed" data-postid="25800724" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%">
+                        <a href="https://tenor.com/view/never-gonna-give-you-up-gif-25800724">Never Gonna Give You Up Meme</a> from 
+                        <a href="https://tenor.com/search/never+gonna+give+you+up-memes">Never Gonna Give You Up Memes</a>
+                    </div>
+                    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
                 </div>
+
                 <div class="video-details">
                     <h2>Rick Astley - Never Gonna Give You Up</h2>
                     <p>Rick Astley</p>
+
                     <div class="content-icons">
                         <div class="icons channel-info">
-                            <img id="icon-channel" src="../assents/image/Channel Avatar.png">
+                            <img id="icon-channel" src="../assents/image/Channel Avatar.png" alt="Canal DIO">
                             <div class="channel-text">
                                 <h3>DIO</h3>
                                 <p>83,3 mil inscritos</p>
                             </div>
                         </div>
+
                         <button id="suscrible">Inscreva-se</button>
+
                         <div class="icons">
-                            <img id="icon-like" src="../assents/image/thumbs-up.png" alt="Like Icon">
+                            <img src="../assents/image/thumbs-up.png" alt="Curtir">
                             <p>2 mil</p>
                         </div>
+
                         <div class="icons">
-                            <img id="icon-dislike" src="../assents/image/thumbs-down.png" alt="Dislike Icon">
+                            <img src="../assents/image/thumbs-down.png" alt="Descurtir">
                             <p>Não gostei</p>
                         </div>
+
                         <div class="icons">
-                            <img id="icon-share" src="../assents/image/share-2.png" alt="Share Icon">
+                            <img src="../assents/image/share-2.png" alt="Compartilhar">
                             <p>Compartilhar</p>
                         </div>
+
                         <div class="icons">
-                            <img id="icon-download" src="../assents/image/download.png" alt="Download Icon">
+                            <img src="../assents/image/download.png" alt="Download">
                             <p>Download</p>
                         </div>
                     </div>
+
                     <div class="video-comments">
-                            <p id="text-dados">28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</p><br>
-                            <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+                        <p id="text-dados">28.418 visualizações · Transmitido ao vivo em 23 ago. de 2022</p>
+                        <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
                     </div>
                 </div>
             </div>
+
             <div class="sidebar">
                 <div class="video">
-                    <img class="thumbnail" src="../assents/image/Thumb.png" alt="Video Thumbnail 1">
+                    <img class="thumbnail" src="../assents/image/Thumb.png" alt="Thumbnail Geração Tech">
                     <div class="video-info">
-                    <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>2,1 mil visualizações</p>
-                    <p>Transmitido há 2 dias</p>
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
                     </div>
                 </div>
+
                 <div class="video">
-                    <img class="thumbnail" src="../assents/image/image 12.png" alt="Video Thumbnail 2">
+                    <img class="thumbnail" src="../assents/image/image 12.png" alt="Thumbnail Scrum Talks">
                     <div class="video-info">
                         <h3>Scrum Talks</h3>
                         <p>DigitalInnovationOne</p>
@@ -86,8 +104,9 @@
                         <p>Transmitido há 3 dias</p>
                     </div>
                 </div>
+
                 <div class="video">
-                    <img class="thumbnail" src="../assents/image/image 13.png" alt="Video Thumbnail 3">
+                    <img class="thumbnail" src="../assents/image/image 13.png" alt="Thumbnail Machine Learning">
                     <div class="video-info">
                         <h3>Machine Learning Avançado - Fast Track</h3>
                         <p>DigitalInnovationOne</p>
@@ -95,8 +114,9 @@
                         <p>Transmitido há 4 dias</p>
                     </div>
                 </div>
+
                 <div class="video">
-                    <img class="thumbnail" src="../assents/image/image 14.png" alt="Video Thumbnail 4">
+                    <img class="thumbnail" src="../assents/image/image 14.png" alt="Thumbnail Global Skills">
                     <div class="video-info">
                         <h3>Global Skills #2 - Project Planning</h3>
                         <p>DigitalInnovationOne</p>
@@ -104,8 +124,9 @@
                         <p>Transmitido há 5 dias</p>
                     </div>
                 </div>
+
                 <div class="video">
-                    <img class="thumbnail" src="../assents/image/image 15.png" alt="Video Thumbnail 5">
+                    <img class="thumbnail" src="../assents/image/image 15.png" alt="Thumbnail Python">
                     <div class="video-info">
                         <h3>Como aprender a programar Python do ZERO</h3>
                         <p>DigitalInnovationOne</p>
@@ -113,13 +134,15 @@
                         <p>Transmitido há 6 dias</p>
                     </div>
                 </div>
+
                 <div class="video">
-                    <img class="thumbnail" src="../assents/image/Thumb.png" alt="Video Thumbnail 1">
+                    <img class="thumbnail" src="../assents/image/Thumb.png" alt="Thumbnail Geração Tech">
                     <div class="video-info">
-                    <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>2,1 mil visualizações</p>
-                    <p>Transmitido há 2 dias</p>
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
                 </div>
             </div>
         </div>

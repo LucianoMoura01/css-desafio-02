@@ -1,10 +1,14 @@
+/* Importação dos módulos CSS */
 @import url('reset.css');
 @import url('header.css');
-@import url('sidebar.css');
 @import url('main.css');
+@import url('sidebar.css');
 
+/* Estilos globais do body */
 body {
-    width: 1440px;
-    height: 100%;
-    opacity: 1;
+    width: 100%;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #f9f9f9;
 }
